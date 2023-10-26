@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.navbar{
+    margin-top: -25px;
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    background-color:rgb(41, 40, 40) ;
+    padding: 10px;
+    width: 100%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: cursive;
+}
+
+.nav-links a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: grey;
+}
+.nav-links button{
+    margin: 10px 20px;
+    height: 40px;
+    background-color: rgb(41, 40, 40);
+    color: goldenrod;
+    border:2px solid  goldenrod ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: cursive;
+}

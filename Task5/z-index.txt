@@ -1,0 +1,31 @@
+Q:1. Explain the z-index, with the code example.
+Ans:
+The z-index property specifies the stack order of an element.
+
+The z-index property
+When elements are positioned, they can overlap other elements.
+
+The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+
+An element can have a positive or negative stack order.
+
+Example:
+<html>
+<head>
+<style>
+img {
+    positionL absolute;
+    left: 0px;
+    top: 0px;
+    z-index:-1;
+}
+</style>
+</head>
+<body>
+
+<h1> This is heading </h1>
+<img src = "img.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+</body>
+</html>

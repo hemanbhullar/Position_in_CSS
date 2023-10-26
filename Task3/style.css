@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(230, 227, 198);
+    padding: 10px;
+}
+p{
+   display: inline-block;
+   width: 70%;
+   height: 200px;
+}
+img{
+    float: right;
+    width: 30%;
+    height: 200px;
+}
